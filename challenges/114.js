@@ -25,12 +25,11 @@ function flatten(array){
         },
         []
       )
-    console.log(flattened);
     return flattened;
 }
 
 let a = [[1,2],[3,4],[5,6,7]];
-flatten(a);
+console.log(flatten(a));
 //Expected result is: 
 //[1,2,3,4,5,6,7]
 //
@@ -38,7 +37,7 @@ flatten(a);
 //
 let nested = [[1,2],[3, [4, 5]], [6], 7]
 
-flatten(nested);
+console.log(flatten(nested));
 //
 // // [1,2,3,4,5,6,7]
 flatten([[1,9],[3,8]]);
